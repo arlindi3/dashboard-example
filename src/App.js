@@ -6,6 +6,7 @@ import Login from "./Dashboard/Login/Login";
 import BmiCalc from "./Dashboard/BmiCalculator/BmiCalc";
 import Game from "./Dashboard/Game/Game";
 import Weather from "./Dashboard/Weather/Weather";
+
 function App() {
   return (
     <div className="App">
