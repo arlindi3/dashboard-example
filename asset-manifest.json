@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.8760b0d1.css",
-    "main.js": "/static/js/main.2450833b.js",
-    "static/js/787.cdcdca4b.chunk.js": "/static/js/787.cdcdca4b.chunk.js",
-    "static/media/chess2.jpeg": "/static/media/chess2.de589e637806ce9ad41c.jpeg",
-    "static/media/chess7.jpeg": "/static/media/chess7.107fe96dc941bf564f6c.jpeg",
-    "static/media/chess8.jpeg": "/static/media/chess8.0edbec2af7d4accea937.jpeg",
-    "static/media/chess0.jpeg": "/static/media/chess0.137768fef12db9889632.jpeg",
-    "static/media/chess3.jpeg": "/static/media/chess3.dced6dd56273421b257b.jpeg",
-    "static/media/chess1.jpeg": "/static/media/chess1.075f52b5c47baa9bf7a2.jpeg",
-    "static/media/chess10.jpeg": "/static/media/chess10.b82a0ab66a04a4b71028.jpeg",
-    "static/media/chess9.jpeg": "/static/media/chess9.ae151bbb791bfa1cdc74.jpeg",
-    "static/media/chess6.jpeg": "/static/media/chess6.dc49fcd215a40f8dda06.jpeg",
-    "static/media/chess5.jpeg": "/static/media/chess5.a4154a4d18021741cb7a.jpeg",
-    "static/media/chess11.jpeg": "/static/media/chess11.518e1405c4dd71a7809b.jpeg",
-    "static/media/chess12.jpeg": "/static/media/chess12.ce984d60de36a219b4eb.jpeg",
-    "static/media/chess13.jpeg": "/static/media/chess13.d0f65c47b742cfcb236b.jpeg",
-    "static/media/chess4.jpeg": "/static/media/chess4.bf7f4a42b9b3d59b75b5.jpeg",
-    "static/media/chess14.jpeg": "/static/media/chess14.3f3919f67d35699d8656.jpeg",
-    "index.html": "/index.html",
-    "main.8760b0d1.css.map": "/static/css/main.8760b0d1.css.map",
-    "main.2450833b.js.map": "/static/js/main.2450833b.js.map",
-    "787.cdcdca4b.chunk.js.map": "/static/js/787.cdcdca4b.chunk.js.map"
+    "main.css": "/dashboard-example/static/css/main.8760b0d1.css",
+    "main.js": "/dashboard-example/static/js/main.89b3daa8.js",
+    "static/js/787.cdcdca4b.chunk.js": "/dashboard-example/static/js/787.cdcdca4b.chunk.js",
+    "static/media/chess2.jpeg": "/dashboard-example/static/media/chess2.de589e637806ce9ad41c.jpeg",
+    "static/media/chess7.jpeg": "/dashboard-example/static/media/chess7.107fe96dc941bf564f6c.jpeg",
+    "static/media/chess8.jpeg": "/dashboard-example/static/media/chess8.0edbec2af7d4accea937.jpeg",
+    "static/media/chess0.jpeg": "/dashboard-example/static/media/chess0.137768fef12db9889632.jpeg",
+    "static/media/chess3.jpeg": "/dashboard-example/static/media/chess3.dced6dd56273421b257b.jpeg",
+    "static/media/chess1.jpeg": "/dashboard-example/static/media/chess1.075f52b5c47baa9bf7a2.jpeg",
+    "static/media/chess10.jpeg": "/dashboard-example/static/media/chess10.b82a0ab66a04a4b71028.jpeg",
+    "static/media/chess9.jpeg": "/dashboard-example/static/media/chess9.ae151bbb791bfa1cdc74.jpeg",
+    "static/media/chess6.jpeg": "/dashboard-example/static/media/chess6.dc49fcd215a40f8dda06.jpeg",
+    "static/media/chess5.jpeg": "/dashboard-example/static/media/chess5.a4154a4d18021741cb7a.jpeg",
+    "static/media/chess11.jpeg": "/dashboard-example/static/media/chess11.518e1405c4dd71a7809b.jpeg",
+    "static/media/chess12.jpeg": "/dashboard-example/static/media/chess12.ce984d60de36a219b4eb.jpeg",
+    "static/media/chess13.jpeg": "/dashboard-example/static/media/chess13.d0f65c47b742cfcb236b.jpeg",
+    "static/media/chess4.jpeg": "/dashboard-example/static/media/chess4.bf7f4a42b9b3d59b75b5.jpeg",
+    "static/media/chess14.jpeg": "/dashboard-example/static/media/chess14.3f3919f67d35699d8656.jpeg",
+    "index.html": "/dashboard-example/index.html",
+    "main.8760b0d1.css.map": "/dashboard-example/static/css/main.8760b0d1.css.map",
+    "main.89b3daa8.js.map": "/dashboard-example/static/js/main.89b3daa8.js.map",
+    "787.cdcdca4b.chunk.js.map": "/dashboard-example/static/js/787.cdcdca4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8760b0d1.css",
-    "static/js/main.2450833b.js"
+    "static/js/main.89b3daa8.js"
   ]
 }
