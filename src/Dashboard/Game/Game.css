@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+} */
+
+.html-chess {
+  font-size: 58%;
+  box-sizing: border-box;
+}
+
+.body-chess {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/02/28/46094/465efc9c9575af7198cbb19881768f19-700.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* #ffffff 50%,
+          #462802 50% */
+/* LAYOUT */
+.main1 {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  background-image: linear-gradient(to right, white 50%, #442d09 50%);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 3rem 3rem 3rem #11080869;
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+}
+
+.player {
+  flex: 50%;
+  padding: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.75s;
+}
+
+/* ELEMENTS */
+.name {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  position: absolute;
+  top: 10rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+#name--0 {
+  color: #442d09;
+  position: absolute;
+  left: 13rem;
+  font-size: 4rem;
+}
+#name--1 {
+  position: absolute;
+  right: 13rem;
+  font-size: 4rem;
+}
+
+/* ABSOLUTE POSITIONED ELEMENTS */
+.bttn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(0, 0, 0);
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn--new {
+  top: 18rem;
+  color: black(255, 255, 255);
+  background-color: white;
+  font-size: large;
+}
+.btn--restart {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  bottom: 16rem;
+  /* background-color: #442d09; */
+  background-image: linear-gradient(
+    to right,
+    rgba(44, 44, 44, 0.623) 50%,
+    #eeeeeeb0 50%
+  );
+}
+.btn--move {
+  color: white;
+  background-color: #442d09;
+  top: 450px;
+  left: 300px;
+  font-size: large;
+}
+
+.btn--move2 {
+  position: absolute;
+  font-size: large;
+  color: black;
+  background-color: white;
+  top: 450px;
+  left: 65rem;
+}
+.btn:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.chess {
+  width: 355px;
+  height: 355px;
+  position: absolute;
+  left: 50%;
+  top: 18rem;
+  transform: translateX(-50%);
+  box-shadow: 3rem 3rem 5rem rgba(0, 0, 0, 0.795);
+}
+
+.logo {
+  color: #442d09;
+  font-size: 3.5rem;
+  display: flex;
+  position: absolute;
+  left: 450px;
+  bottom: 10rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.logo2 {
+  color: white;
+  font-size: 3.5rem;
+  display: flex;
+  position: absolute;
+  left: 45rem;
+  bottom: 10rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.hidde {
+  display: none;
+}
+.pop-up {
+  background-image: linear-gradient(to top left, #ffffff00 10%, #ffffff15 60%);
+  font-size: 15px;
+  width: 600px;
+  max-width: 100%;
+  box-shadow: 3rem 3rem 5rem rgb(12, 11, 11);
+  border-radius: 7px;
+  padding: 30px 50px;
+  background-color: white;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  text-align: center;
+}
+/* https://wallpaperaccess.com/full/1231810.png */
+.pop-container {
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/02/28/46094/465efc9c9575af7198cbb19881768f19-700.jpg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}

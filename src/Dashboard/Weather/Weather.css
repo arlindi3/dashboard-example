@@ -1,0 +1,56 @@
+.weather-container {
+  position: relative;
+  top: 11rem;
+}
+.weather {
+  font-size: 20px;
+}
+.message-p {
+  color: white;
+}
+.weather-data-city {
+  color: black;
+  font-size: 30px;
+  font-family: Trebuchet MS;
+}
+.weather-data-temp {
+  color: black;
+  font-size: 60px;
+  font-family: Trebuchet MS;
+}
+.weather-data-skycond {
+  color: black;
+  font-size: 30px;
+  font-family: Trebuchet MS;
+}
+.btn-weather {
+  background-color: rgb(62, 0, 107);
+  font-size: larger;
+  border-radius: 40px;
+  position: absolute;
+  top: 50.5px;
+  left: 49.9rem;
+  color: white;
+}
+.weather-input {
+  width: 250px;
+  height: 1.7rem;
+  position: absolute;
+  top: 50px;
+  left: 33rem;
+  border-radius: 40px;
+}
+.img-weather {
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+.oval-background-weather {
+  width: 350px;
+  height: 450px;
+  background: linear-gradient(135deg, orange 30%, cyan);
+  border-radius: 4rem;
+  position: absolute;
+  top: 8rem;
+  left: 32rem;
+}

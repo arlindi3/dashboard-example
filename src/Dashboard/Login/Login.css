@@ -1,0 +1,57 @@
+.text-input {
+  margin: 30px;
+  width: 300px;
+  font-size: 40px;
+  border: 0;
+  border-bottom: 2px solid white;
+  text-align: center;
+  /* background: transparent; */
+  color: black;
+}
+.messages {
+  position: relative;
+  color: white;
+}
+.pass-input {
+  color: black;
+  /* background: transparent; */
+  width: 300px;
+  font-size: 40px;
+  border: 0;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+.login-form {
+  position: relative;
+  top: 7rem;
+}
+.login-font {
+  font-size: 50px;
+}
+/*  font-family: Georgia, "Times New Roman", Times, serif; */
+.btn-login {
+  font-size: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 60px;
+  position: relative;
+  top: 5.5rem;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.oval-background3 {
+  height: 300px;
+  width: 650px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(6, 0, 113) 0%,
+    rgba(9, 113, 121, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 4rem;
+  position: absolute;
+  top: 15rem;
+  left: 22rem;
+}
